@@ -9,3 +9,6 @@ __para praticar RegExp:__
 
 __para ver os UNICODEs__
 <a href="https://unicode-table.com/pt/" target="_blank" rel="noopener">https://unicode-table.com/pt/</a>
+
+| vaca | vaca |
+|------|------|

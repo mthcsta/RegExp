@@ -9,7 +9,7 @@ Repositório destinado para minhas práticas com expressões regulares.
     * [Representantes](#representantes)
     * [Quantificadores](#quantificadores)
     * [Âncoras](#âncoras)
-    * [Outros](outros)
+    * [Outros](#outros)
 * [Quantificadores](#quantificadores-1)
     * [Exemplos de Quantificadores](#exemplos-de-quantificadores)
 

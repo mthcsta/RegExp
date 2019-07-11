@@ -1,6 +1,25 @@
 # RegExp
 Repositório destinado para minhas práticas com expressões regulares.
 
+## Sumário
+
+### Conteúdo
+* [Links/Guias](#linksguias)
+* [Metacaracteres](#metacaracteres)
+    * [Representantes](#representantes)
+    * [Quantificadores](#quantificadores)
+    * [Âncoras](#âncoras)
+    * [Outros](outros)
+* [Quantificadores](#quantificadores-1)
+    * [Exemplos de Quantificadores](#exemplos-de-quantificadores)
+
+### Exercitando RegExp em Linguagens
+* [Javascript](ex-JS)
+
+### Outros
+* [Aulas](Aulas)
+
+
 ## Links/Guias
 Para uso como guia, nada melhor que sites que ajudam a fazer uma expressão regular com mais facilidade.
 

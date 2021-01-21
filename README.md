@@ -78,15 +78,15 @@ __para ver os UNICODEs__
 ### 
 | Grupo Construtor          | Significado                   |
 |:-------------------------:|:-----------------------------:|
-| __(?<chave>valor)__       | cria um grupo chave-valor     |
-| __(?:valor)__             | não captura um grupo          |
+| __(?\<chave\>valor)__       | cria um grupo chave-valor     |
+| __(?\:valor)__             | não captura um grupo          |
 | 
 
-(?<nome>regra) cria um grupo chave-valor com "nome" sendo chave e "regra" sendo valor
+(?\<nome\>regra) cria um grupo chave-valor com "nome" sendo chave e "regra" sendo valor
 
 Exemplo:
 
-> /(?<chave>\w+)\:\s?(?<valor>\w+)/.exec(' Nome: Matheus Costa \n Idade: 23 \n Signo: Leão').groups // {chave: "Nome", valor: "Matheus"} 
+> /(?\<chave\>\w+)\:\s?(?\<valor\>\w+)/.exec(' Nome: Matheus Costa \n Idade: 23 \n Signo: Leão').groups // {chave: "Nome", valor: "Matheus"} 
    Retornou somente a primeira ocorrencia.
 
 (?:ha)+ não captura o grupo criado

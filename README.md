@@ -73,3 +73,20 @@ __para ver os UNICODEs__
 | __{0,1}__                 | Zero ou Um(semelhante ao ?)   |
 | __{0,}__                  | Zero ou Mais(semelhante ao *) |
 | __{1,}__                  | Um ou Mais(semelhante ao +)   |
+
+## Construtores de Grupos
+### 
+| Grupo Construtor          | Significado                   |
+|:-------------------------:|:-----------------------------:|
+| __(?<chave>valor)__       | cria um grupo chave-valor     |
+| __(?:valor)__             | não captura um grupo          |
+| 
+
+(?<nome>regra) cria um grupo chave-valor com "nome" sendo chave e "regra" sendo valor
+
+Exemplo:
+
+> /(?<chave>\w+)\:\s?(?<valor>\w+)/.exec(' Nome: Matheus Costa \n Idade: 23 \n Signo: Leão').groups // {chave: "Nome", valor: "Matheus"} 
+   Retornou somente a primeira ocorrencia.
+
+(?:ha)+ não captura o grupo criado
